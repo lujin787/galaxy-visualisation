@@ -9,8 +9,6 @@ t=turtle.Turtle()
 t.hideturtle()
 t.penup()
 TILT = 0.55
-def glow(h,v=1.0):
-    return colorsys.hsv_to_rgb(h%1,0.7,v)
 
 def stars():
     stars_colors = ["#ffa333","#fffbeb","#e0fffb","#09eefc"]
